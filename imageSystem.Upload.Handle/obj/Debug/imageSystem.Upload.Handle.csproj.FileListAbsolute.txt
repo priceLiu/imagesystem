@@ -1,0 +1,4 @@
+E:\github\imagesystem\imageSystem.Upload.Handle\bin\Debug\imageSystem.Upload.Handle.dll
+E:\github\imagesystem\imageSystem.Upload.Handle\bin\Debug\imageSystem.Upload.Handle.pdb
+E:\github\imagesystem\imageSystem.Upload.Handle\obj\Debug\imageSystem.Upload.Handle.dll
+E:\github\imagesystem\imageSystem.Upload.Handle\obj\Debug\imageSystem.Upload.Handle.pdb
