@@ -3,3 +3,5 @@ E:\github\imagesystem\imageSystem.Web\bin\imageSystem.Web.pdb
 E:\github\imagesystem\imageSystem.Web\obj\Debug\imageSystem.Web.csprojResolveAssemblyReference.cache
 E:\github\imagesystem\imageSystem.Web\obj\Debug\imageSystem.Web.dll
 E:\github\imagesystem\imageSystem.Web\obj\Debug\imageSystem.Web.pdb
+E:\github\imagesystem\imageSystem.Web\bin\imageSystem.Common.dll
+E:\github\imagesystem\imageSystem.Web\bin\imageSystem.Common.pdb

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.IO;
+using imageSystem.Common;
 
 namespace imageSystem.Web
 {
@@ -29,16 +30,20 @@ namespace imageSystem.Web
 
                 HttpPostedFile uploadedfile = context.Request.Files[0];
 
-                string FileName = uploadedfile.FileName;
-                string FileType = uploadedfile.ContentType;
-                int FileSize = uploadedfile.ContentLength;
+                //string FileName = uploadedfile.FileName;
+                string fileName = FileProcess.GenerateFileName(uploadedfile.FileName);
+                string path = FileProcess.CreateFloder(HttpContext.Current.Server.MapPath("/Upload"), 
+                                                                DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
 
-                LogRequest(FileName + ", " + FileType + ", " + FileSize);
+                string fileType = uploadedfile.ContentType;
+                int fileSize = uploadedfile.ContentLength;
 
-                uploadedfile.SaveAs(HttpContext.Current.Server.MapPath("/Upload") + "\\" + FileName);
+                LogRequest(fileName + ", " + fileType + ", " + fileSize);
+
+                uploadedfile.SaveAs(path + "\\" + fileName);
 
                 context.Response.ContentType = "text/plain";
-                context.Response.Write("{\"name\":\"" + FileName + "\",\"type\":\"" + FileType + "\",\"size\":\"" + FileSize + "\"}");
+                context.Response.Write("{\"name\":\"" + fileName + "\",\"type\":\"" + fileType + "\",\"size\":\"" + fileSize + "\"}");
 
             }
 

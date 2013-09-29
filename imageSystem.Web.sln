@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imageSystem.Web", "imageSys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imageSystem.Upload.Handle", "imageSystem.Upload.Handle\imageSystem.Upload.Handle.csproj", "{BC347F54-F5F2-4113-B98D-2F6C80B4EAE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "imageSystem.Common", "imageSystem.Common\imageSystem.Common.csproj", "{4018D394-0791-4F97-9FDE-FCE2462B5A51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{BC347F54-F5F2-4113-B98D-2F6C80B4EAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC347F54-F5F2-4113-B98D-2F6C80B4EAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC347F54-F5F2-4113-B98D-2F6C80B4EAE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4018D394-0791-4F97-9FDE-FCE2462B5A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4018D394-0791-4F97-9FDE-FCE2462B5A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4018D394-0791-4F97-9FDE-FCE2462B5A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4018D394-0791-4F97-9FDE-FCE2462B5A51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

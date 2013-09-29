@@ -89,6 +89,12 @@
   <ItemGroup>
     <Folder Include="Log\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\imageSystem.Common\imageSystem.Common.csproj">
+      <Project>{4018d394-0791-4f97-9fde-fce2462b5a51}</Project>
+      <Name>imageSystem.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
